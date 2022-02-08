@@ -8,7 +8,8 @@ import './index.css';
 //import Ejemplo02 from './Ejemplo02';
 //import Ejemplo03 from './Ejemplo03';
 //import Ejemplo04 from './Ejemplo04';
-import Ejemplo05 from './Ejemplo05';
+//import Ejemplo05 from './Ejemplo05';
+import Ejemplo06 from './Ejemplo06';
 
 
 // INDEX es la página principal.
@@ -19,7 +20,7 @@ import Ejemplo05 from './Ejemplo05';
 // Para testear, podremos ir comentando los módulos "Ejemplo0x":
 // y ver el resultado en localhost:3000
 ReactDOM.render(
-    <Ejemplo05 />,
+    <Ejemplo06 />,
     document.getElementById('root')
 );
 

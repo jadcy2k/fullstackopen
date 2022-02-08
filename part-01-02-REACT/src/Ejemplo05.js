@@ -37,7 +37,7 @@ const Ejemplo05 = () => {
     // Queremos guardar en un Array "L" o "R" según el botón clicado.
     // Aquí es necesario saber el estado actual (inventamos la variable "prevClicks") 
     // y así podremos hacer SPREAD para añadirle "L":
-    setClicks((prevClicks) => [...prevClicks, "L"]);
+    setClicks((prevClicks) => [...prevClicks, "L"]); //concatenar Arrays.
   }
   //------------------------------------------------------------
   // Funcion para manejar el click (Derecha):
@@ -50,7 +50,7 @@ const Ejemplo05 = () => {
     }
     // Seteamos ese nuevo valor del State:
     setCount(newCountState);
-    setClicks((prevClicks) => [...prevClicks, "R"]);
+    setClicks((prevClicks) => [...prevClicks, "R"]); //concatenar Arrays.
   }
 
   // IMPORTANTE:
